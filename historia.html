@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general_style.css">
+    <link rel="stylesheet" href="css/historia.css">
+    <script src="js/historia.js"></script>
+
+    <title>Historia del Ajedrez</title>
+</head>
+
+<body>
+    <div class="opacidad">
+        <header>
+            <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary border-bottom-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">AJEDREZ</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="piezas.html">Piezas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aperturas.html">Aperturas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h1>Historia del Ajedrez</h1>
+        </header>
+        <main>
+            <div>
+                <h2>Orígenes del Ajedrez</h2>
+                <p>
+                    No existe evidencia sobre la fecha exacta en la que el ajedrez apareció por primera vez. De todas
+                    formas, los historiadores tienden a concordar en que el ajedrez evolucionó a partir de otros juegos
+                    de mesa de la India, como, por ejemplo, el chaturanga. El antiguo juego de la India comparte dos
+                    características que se encuentran presentes en todas las variantes posteriores: un valor distinto
+                    para cada pieza y el hecho de que el destino del rey determina el resultado del juego.
+                </p>
+                <p>
+                    El Chaturanga dio lugar, durante el siglo VII, al shatranj. El Shatranj se extendió hacia el Este,
+                    Norte y Oeste, adquiriendo características distintas a lo largo del camino. Luego de llegar a
+                    Europa, el juego evolucionó lentamente en lo que se conoce hoy en día como ajedrez estándar.
+                </p>
+                <p>
+                    A partir del siglo XIX , ganaron en popularidad los encuentros de ajedrez entre dos jugadores para
+                    determinar al campeón del mundo. El primer campeón del mundo oficial, Wilhelm Steinitz, obtuvo su
+                    título en 1886 luego de derrotar a Johannes Zukertort. La FIDE comenzó a organizar los Campeonatos
+                    del Mundo en 1948, siendo GM Mikhail Botvinnik el primero en obtener el título.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <h2>Desarrollo del Ajedrez Moderno</h2>
+                <p>
+                    Desde 1948 hasta 1993, la FIDE continuó organizando el Campeonato del Mundo. Los campeones durante
+                    ese período fueron, más allá de Botvinnik, los siguientes: Vasily Smyslov, Mikhail Tal, Tigran
+                    Petrosian, Boris Spassky, Bobby Fischer, Anatoly Karpov, y Garry Kasparov.
+                </p>
+                <p>
+                    En 1993, el campeón del mundo vigente, Garry Kasparov, tuvo desacuerdos con la FIDE y creó otra
+                    organización internacional de ajedrez - la Asociación Profesional de Ajedrez (PCA, por sus siglas en
+                    inglés) - junto con el GM Nigel Short. A partir de 1993, hubo dos títulos de campeón del mundo; uno
+                    de la PCA, y otro de la FIDE. Los campeones de la PCA incluyen a Kasparov y GM Vladimir Kramnik. La
+                    reunificación de los títulos ocurrió en 2006, cuando Kramnik derrotó al campeón del mundo de la
+                    FIDE, GM Veselin Topalov.
+                </p>
+            </div>
+            <hr>
+            <div>
+                <h2>Ajedrez en la Actualidad</h2>
+                <p>
+                    A partir de entonces, la FIDE ha organizado todos los eventos del Campeonato del Mundo. Entre los
+                    ganadores se encuentran GMs Viswanathan Anand y el campeón del mundo actual, Magnus Carlsen.
+                </p>
+                <p>
+                    El año 2020 trajo consigo una gran revolución en el mundo del ajedrez. El ajedrez online creció
+                    exponencialmente, propulsado por la pandemia del COVID-19 y la miniserie de Netflix, The Queen's
+                    Gambit (El Gambito de Dama). El ajedrez dejó su huella en el mundo de los esports, con eventos tales
+                    como PogChamps 3, siendo éste el epítome de la participación del ajedrez en el mundo del streaming y
+                    la creación de contenido.
+                </p>
+            </div>
+            <div class="formulario">
+                <h3>Informacion de conocimiento</h3>
+                <form onsubmit="return validarFormulario()">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="..." required><br><br>
+
+                    <label for="edad">Edad:</label>
+                    <input type="text" id="edad" placeholder="Campo numerico..." required><br><br>
+
+                    <label for="elo">ELO de chess.com:</label>
+                    <input type="text" id="elo" placeholder="Campo numerico..." required><br><br>
+
+                    <label for="usuario">Usuario de chess.com:</label>
+                    <input type="text" id="usuario" placeholder="..." required><br><br>
+
+                    <label for="correo">Correo electrónico de chess.com:</label>
+                    <input type="text" id="correo" placeholder="123@abc.com" required><br><br>
+
+                    <label for="opinion">Opina y sugiere sobre nuestra pagina:</label>
+                    <textarea type="textarea" id="opinion" placeholder="Escribe tu opinion..." required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Nuestras redes sociales:</p>
+            <a href="https://github.com/tu_usuario" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/tu_canal" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/tu_perfil" target="_blank">Instagram</a>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>

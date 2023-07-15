@@ -1,0 +1,23 @@
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+h3,
+label {
+    color: #fff;
+}
+
+.formulario {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    width: 100%;
+}

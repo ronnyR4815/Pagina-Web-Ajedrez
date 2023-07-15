@@ -1,0 +1,28 @@
+.piece-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.piece-name {
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.piece-image {
+    width: 200px;
+    height: 250px;
+    margin-right: 30px;
+    transition: transform 0.3s;
+}
+
+.piece-image:hover {
+    transform: rotate(360deg);
+    scale: 1.2;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,32 @@
+p,
+h2 {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.video-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-description {
+    margin-bottom: 20px;
+}
+
+.video-iframe {
+    width: 640px;
+    height: 360px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.video-iframe:hover {
+    transform: scale(1.1);
+}
